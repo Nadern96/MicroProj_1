@@ -1,3 +1,7 @@
+#include "tm4c123gh6pm.h"
+#include "Utils.h"
+#include "Std_Types.h"
+#include "DIO.h"
 
 void DIO_vid_WritePortVal(u8 port , u8 val)
 {
