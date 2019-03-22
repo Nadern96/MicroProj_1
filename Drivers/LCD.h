@@ -8,11 +8,11 @@
 #ifndef LCD_H_
 #define LCD_H_
 
-#define LCD_Data PORTB
-#define LCD_Control PORTA
-#define LCD_RS PIN7
-#define LCD_RW PIN6
-#define LCD_E PIN5
+#define LCD_Data portB
+#define LCD_Control portA
+#define LCD_RS 7
+#define LCD_RW 6
+#define LCD_E 5
 #define First_Row 1
 #define Second_Row 2
 
