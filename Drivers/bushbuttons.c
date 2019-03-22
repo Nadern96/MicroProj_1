@@ -2,19 +2,7 @@
 #include "Utils.h"
 #include "Std_Types.h"
 #include "DIO.h"
-
- 
- void init_bushbutton ( u8 port , u8 pin ) ;
- u32 is_pressed_increment ( u8 port , u8 pin); 
- u32 is_pressed_decrement  (u8 port , u8 pin) ;
- void is_pressed_reset(u8 port , u8 pin) ;
- void dealy_ms (u32 time ) ;
- 
- u32 counter ; 
- 
-
- 
- }
+#include "delay.h"
  
   void init_bushbutton ( u8 port , u8 pin ) {
   
