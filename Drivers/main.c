@@ -2,9 +2,8 @@
 #include "std_types.h"
 #include "utlisis.h"
 #include "DIO.h"
-#include "7seg.h"
 #include "LCD.h"
-
+#include "delay.h"
 
 int main(void)
 { 
