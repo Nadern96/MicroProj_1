@@ -1,7 +1,6 @@
 #include "Std_Types.h"
 #include "Utils.h"
 #include "DIO.h"
-#include "Port.h"
 #include "LCD.h"
 
 void LCD_vidDisplayString (u8 str[])
